@@ -1,0 +1,200 @@
+/* Обнуление */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    color: #000;
+    font-size: 16px;
+    min-width: 1200px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul,li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+/* Конец обнуления */
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url('../img/header-bg.jpg') no-repeat center top / cover;
+    height: 100vh;
+}
+
+header a {
+    color: #FFFF;
+}
+
+.menu {
+    display: flex;
+}
+
+.logo {
+    margin-right: 69px;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+.tel {
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 57px;
+}
+
+.offer {
+    color: white;
+    text-transform: uppercase;
+}
+
+.offer p {
+    font-size: 30px;
+    margin-bottom: 19px;
+    margin-top: 212px;
+    animation: anim-1 3s;
+}
+
+.offer h1 {
+    font-size: 100px;
+    animation: anim-1 3s;
+}
+
+.button {
+    width: 238px;
+    text-decoration: none;
+    padding: 17px 47px;
+    box-sizing: border-box;
+    text-align: center;
+    display: block;
+    font-size: 17px;
+    border: 1px solid #FFFF;
+    margin-top: 19px;
+}
+
+.about__title {
+    margin-top: 113px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 73px;
+}
+
+.subtitle {
+    margin-top: 58px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 36,68px;
+}
+
+.paragraph {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 113px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitle_right {
+    margin-top: 58px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 36,68px;
+    margin-right: 300px;
+}
+
+.paragraph_right {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.gallery img {
+    margin-right: 17px;
+    margin-bottom: 114px;
+}
+
+.endparagraph {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20,43px;
+    text-align: center;
+}
+
+.endparagraph_1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20,43px;
+    text-align: center;
+}
+
+.menu li a:hover {
+    color: blue;
+}
+
+.button:hover {
+    background-color: rgb(211, 190, 190);
+}
+
+/* Анимация */
+
+@keyframes anim-1 {
+    0% {
+        transform: translateX(-300px);
+    }
+
+    100% {
+        transform: translateX(0%)
+    }
+}
+
+
+/* Медиа запросы */
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-height: 500px) {
+    
+}
+
+@media (max-width: 767px) {
+    
+}
+
+@media (max-height: 500px) {
+    
+}
